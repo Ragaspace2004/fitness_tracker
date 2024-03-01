@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Add Tailwind CSS configuration -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  
+</head>
+<body>
+  <div class="bg-purple-600">
+  <div id="grad1" >
+      <div class="flex flex-row items-center justify-between md:gap-6">
+        <div class="flex flex-row gap-5 mt-10">
+          <h1 class="ml-11 text-2xl text-whitetext-white font-bold tracking-tight text-white font-mono">FITNESS FREAKS</h1>
+        </div>
+        <div class="flex flex-row gap-5 text-2xl text-white ray-300 mt-10">
+          <a class="hover:underline" href="thigh.html">Thigh</a>
+          <a class="hover:underline" href="hip.html">Hip</a>
+          <a class="hover:underline" href="belly.html">Belly</a>
+          <a href="login.html" class="ml-4 border-2 p-1 text-xl font-bold text-white border-white rounded-lg hover:text-green-600 "> SIGN UP </a>
+        </div>
+      </div>
+      <div class="flex flex-row items-center justify-between">
+      <div class="flex flex-col items-center ml-48">
+      <h1 class="mt-36 text-center text-8xl font-mono font-bold text-white tracking-tight">MISSION</h1>
+      <h1 class="tracking tight mt-2 text-center text-8xl text-white font-bold">FITNESS</h1>
+      <p class="text-white mt-10">The hard part isn't getting the body into shape</p>
+      <p  class="text-white mt-2">It's the mind!!</p>
+      </div>
+      <img src="exercise.png"/>
+    </div>
+      <div id="hipExercises" class="mt-10 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div id="card1" class="bg-white rounded-lg overflow-hidden shadow-lg">
+            <a href="#" id="thigh" onclick="document.location=this.id+'.html';return false;" >
+              <img src="thighloss.webp" alt="burger" class="thumbnails" />
+              <h2 class="font-bold text-2xl p-4">Thigh Workout</h2>
+            </a>
+  </div>
+  <div id="card2" class="bg-white rounded-lg overflow-hidden shadow-lg">
+            <a href="#" id="hip" onclick="document.location=this.id+'.html';return false;" >
+              <img src="hip loss.jpg" alt="burger" class="thumbnails" />
+              <h2 class="font-bold text-2xl p-2">Hip Workout</h2>
+            </a>
+  </div>
+  <div id="card3" class="bg-white rounded-lg overflow-hidden shadow-lg">
+            <a href="#" id="belly" onclick="document.location=this.id+'.html';return false;" >
+              <img src="belly loss.jpg" alt="burger" class="thumbnails" />
+              <h2 class="font-bold text-2xl p-4">Belly Workout</h2>
+            </a>
+  </div>
+  </div>
+    </div>
+  </div>
+  
+</body>
+</html>
